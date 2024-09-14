@@ -1,5 +1,2 @@
-"""
 import filecmp
-print(filecmp.cmp('/Users/deniz/Desktop/output.txt', '/Users/deniz/Desktop/output3.txt'))
-"""
-
+print(filecmp.cmp('primary/file/path', 'secondary/file/path'))
